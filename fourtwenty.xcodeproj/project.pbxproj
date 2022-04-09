@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2B5076D2801F6EE0074647C /* fourtwentyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5076C2801F6EE0074647C /* fourtwentyApp.swift */; };
+		C2B5076F2801F6EE0074647C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5076E2801F6EE0074647C /* ContentView.swift */; };
+		C2B507712801F6EF0074647C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B507702801F6EF0074647C /* Assets.xcassets */; };
+		C2B507742801F6EF0074647C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B507732801F6EF0074647C /* Preview Assets.xcassets */; };
+		C2B5077E2801F6EF0074647C /* fourtwentyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5077D2801F6EF0074647C /* fourtwentyTests.swift */; };
+		C2B507882801F6EF0074647C /* fourtwentyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507872801F6EF0074647C /* fourtwentyUITests.swift */; };
+		C2B5078A2801F6EF0074647C /* fourtwentyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507892801F6EF0074647C /* fourtwentyUITestsLaunchTests.swift */; };
+		C2B5078E2801F6EF0074647C /* fourtwenty WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C2B5078D2801F6EF0074647C /* fourtwenty WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2B507932801F6F00074647C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B507922801F6F00074647C /* Assets.xcassets */; };
+		C2B507992801F6F00074647C /* fourtwenty WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2B507982801F6F00074647C /* fourtwenty WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2B5079E2801F6F00074647C /* fourtwentyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5079D2801F6F00074647C /* fourtwentyApp.swift */; };
+		C2B507A02801F6F00074647C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5079F2801F6F00074647C /* ContentView.swift */; };
+		C2B507A22801F6F00074647C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507A12801F6F00074647C /* NotificationController.swift */; };
+		C2B507A42801F6F00074647C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507A32801F6F00074647C /* NotificationView.swift */; };
+		C2B507A62801F6F00074647C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507A52801F6F00074647C /* ComplicationController.swift */; };
+		C2B507A82801F6F00074647C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B507A72801F6F00074647C /* Assets.xcassets */; };
+		C2B507AB2801F6F00074647C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B507AA2801F6F00074647C /* Preview Assets.xcassets */; };
+		C2B507B72801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507B62801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift */; };
+		C2B507C12801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507C02801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift */; };
+		C2B507C32801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507C22801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2B5077A2801F6EF0074647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B507612801F6EE0074647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B507682801F6EE0074647C;
+			remoteInfo = fourtwenty;
+		};
+		C2B507842801F6EF0074647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B507612801F6EE0074647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B507682801F6EE0074647C;
+			remoteInfo = fourtwenty;
+		};
+		C2B5078F2801F6EF0074647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B507612801F6EE0074647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B5078C2801F6EF0074647C;
+			remoteInfo = "fourtwenty WatchKit App";
+		};
+		C2B5079A2801F6F00074647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B507612801F6EE0074647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B507972801F6F00074647C;
+			remoteInfo = "fourtwenty WatchKit Extension";
+		};
+		C2B507B32801F6F00074647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B507612801F6EE0074647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B507972801F6F00074647C;
+			remoteInfo = "fourtwenty WatchKit Extension";
+		};
+		C2B507BD2801F6F00074647C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B507612801F6EE0074647C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B5078C2801F6EF0074647C;
+			remoteInfo = "fourtwenty WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2B507C92801F6F00074647C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2B507992801F6F00074647C /* fourtwenty WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507CD2801F6F00074647C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C2B5078E2801F6EF0074647C /* fourtwenty WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2B507692801F6EE0074647C /* fourtwenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fourtwenty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B5076C2801F6EE0074647C /* fourtwentyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwentyApp.swift; sourceTree = "<group>"; };
+		C2B5076E2801F6EE0074647C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2B507702801F6EF0074647C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2B507732801F6EF0074647C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2B507792801F6EF0074647C /* fourtwentyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fourtwentyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B5077D2801F6EF0074647C /* fourtwentyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwentyTests.swift; sourceTree = "<group>"; };
+		C2B507832801F6EF0074647C /* fourtwentyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fourtwentyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B507872801F6EF0074647C /* fourtwentyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwentyUITests.swift; sourceTree = "<group>"; };
+		C2B507892801F6EF0074647C /* fourtwentyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwentyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2B5078D2801F6EF0074647C /* fourtwenty WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fourtwenty WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B507922801F6F00074647C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2B507982801F6F00074647C /* fourtwenty WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fourtwenty WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B5079D2801F6F00074647C /* fourtwentyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwentyApp.swift; sourceTree = "<group>"; };
+		C2B5079F2801F6F00074647C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2B507A12801F6F00074647C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C2B507A32801F6F00074647C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C2B507A52801F6F00074647C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C2B507A72801F6F00074647C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2B507AA2801F6F00074647C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2B507AC2801F6F00074647C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B507AD2801F6F00074647C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C2B507B22801F6F00074647C /* fourtwenty WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fourtwenty WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B507B62801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwenty_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		C2B507BC2801F6F00074647C /* fourtwenty WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fourtwenty WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B507C02801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwenty_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		C2B507C22801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwenty_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2B507662801F6EE0074647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507762801F6EF0074647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507802801F6EF0074647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507952801F6F00074647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507AF2801F6F00074647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507B92801F6F00074647C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2B507602801F6EE0074647C = {
+			isa = PBXGroup;
+			children = (
+				C2B5076B2801F6EE0074647C /* fourtwenty */,
+				C2B5077C2801F6EF0074647C /* fourtwentyTests */,
+				C2B507862801F6EF0074647C /* fourtwentyUITests */,
+				C2B507912801F6EF0074647C /* fourtwenty WatchKit App */,
+				C2B5079C2801F6F00074647C /* fourtwenty WatchKit Extension */,
+				C2B507B52801F6F00074647C /* fourtwenty WatchKit AppTests */,
+				C2B507BF2801F6F00074647C /* fourtwenty WatchKit AppUITests */,
+				C2B5076A2801F6EE0074647C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2B5076A2801F6EE0074647C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507692801F6EE0074647C /* fourtwenty.app */,
+				C2B507792801F6EF0074647C /* fourtwentyTests.xctest */,
+				C2B507832801F6EF0074647C /* fourtwentyUITests.xctest */,
+				C2B5078D2801F6EF0074647C /* fourtwenty WatchKit App.app */,
+				C2B507982801F6F00074647C /* fourtwenty WatchKit Extension.appex */,
+				C2B507B22801F6F00074647C /* fourtwenty WatchKit AppTests.xctest */,
+				C2B507BC2801F6F00074647C /* fourtwenty WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2B5076B2801F6EE0074647C /* fourtwenty */ = {
+			isa = PBXGroup;
+			children = (
+				C2B5076C2801F6EE0074647C /* fourtwentyApp.swift */,
+				C2B5076E2801F6EE0074647C /* ContentView.swift */,
+				C2B507702801F6EF0074647C /* Assets.xcassets */,
+				C2B507722801F6EF0074647C /* Preview Content */,
+			);
+			path = fourtwenty;
+			sourceTree = "<group>";
+		};
+		C2B507722801F6EF0074647C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507732801F6EF0074647C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2B5077C2801F6EF0074647C /* fourtwentyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B5077D2801F6EF0074647C /* fourtwentyTests.swift */,
+			);
+			path = fourtwentyTests;
+			sourceTree = "<group>";
+		};
+		C2B507862801F6EF0074647C /* fourtwentyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507872801F6EF0074647C /* fourtwentyUITests.swift */,
+				C2B507892801F6EF0074647C /* fourtwentyUITestsLaunchTests.swift */,
+			);
+			path = fourtwentyUITests;
+			sourceTree = "<group>";
+		};
+		C2B507912801F6EF0074647C /* fourtwenty WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507922801F6F00074647C /* Assets.xcassets */,
+			);
+			path = "fourtwenty WatchKit App";
+			sourceTree = "<group>";
+		};
+		C2B5079C2801F6F00074647C /* fourtwenty WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C2B5079D2801F6F00074647C /* fourtwentyApp.swift */,
+				C2B5079F2801F6F00074647C /* ContentView.swift */,
+				C2B507A12801F6F00074647C /* NotificationController.swift */,
+				C2B507A32801F6F00074647C /* NotificationView.swift */,
+				C2B507A52801F6F00074647C /* ComplicationController.swift */,
+				C2B507A72801F6F00074647C /* Assets.xcassets */,
+				C2B507AC2801F6F00074647C /* Info.plist */,
+				C2B507AD2801F6F00074647C /* PushNotificationPayload.apns */,
+				C2B507A92801F6F00074647C /* Preview Content */,
+			);
+			path = "fourtwenty WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C2B507A92801F6F00074647C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507AA2801F6F00074647C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2B507B52801F6F00074647C /* fourtwenty WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507B62801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift */,
+			);
+			path = "fourtwenty WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		C2B507BF2801F6F00074647C /* fourtwenty WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B507C02801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift */,
+				C2B507C22801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "fourtwenty WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2B507682801F6EE0074647C /* fourtwenty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507CE2801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty" */;
+			buildPhases = (
+				C2B507652801F6EE0074647C /* Sources */,
+				C2B507662801F6EE0074647C /* Frameworks */,
+				C2B507672801F6EE0074647C /* Resources */,
+				C2B507CD2801F6F00074647C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B507902801F6EF0074647C /* PBXTargetDependency */,
+			);
+			name = fourtwenty;
+			productName = fourtwenty;
+			productReference = C2B507692801F6EE0074647C /* fourtwenty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2B507782801F6EF0074647C /* fourtwentyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507D12801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwentyTests" */;
+			buildPhases = (
+				C2B507752801F6EF0074647C /* Sources */,
+				C2B507762801F6EF0074647C /* Frameworks */,
+				C2B507772801F6EF0074647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B5077B2801F6EF0074647C /* PBXTargetDependency */,
+			);
+			name = fourtwentyTests;
+			productName = fourtwentyTests;
+			productReference = C2B507792801F6EF0074647C /* fourtwentyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2B507822801F6EF0074647C /* fourtwentyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507D42801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwentyUITests" */;
+			buildPhases = (
+				C2B5077F2801F6EF0074647C /* Sources */,
+				C2B507802801F6EF0074647C /* Frameworks */,
+				C2B507812801F6EF0074647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B507852801F6EF0074647C /* PBXTargetDependency */,
+			);
+			name = fourtwentyUITests;
+			productName = fourtwentyUITests;
+			productReference = C2B507832801F6EF0074647C /* fourtwentyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C2B5078C2801F6EF0074647C /* fourtwenty WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507CA2801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit App" */;
+			buildPhases = (
+				C2B5078B2801F6EF0074647C /* Resources */,
+				C2B507C92801F6F00074647C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B5079B2801F6F00074647C /* PBXTargetDependency */,
+			);
+			name = "fourtwenty WatchKit App";
+			productName = "fourtwenty WatchKit App";
+			productReference = C2B5078D2801F6EF0074647C /* fourtwenty WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C2B507972801F6F00074647C /* fourtwenty WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507C62801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit Extension" */;
+			buildPhases = (
+				C2B507942801F6F00074647C /* Sources */,
+				C2B507952801F6F00074647C /* Frameworks */,
+				C2B507962801F6F00074647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fourtwenty WatchKit Extension";
+			productName = "fourtwenty WatchKit Extension";
+			productReference = C2B507982801F6F00074647C /* fourtwenty WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C2B507B12801F6F00074647C /* fourtwenty WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507D72801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit AppTests" */;
+			buildPhases = (
+				C2B507AE2801F6F00074647C /* Sources */,
+				C2B507AF2801F6F00074647C /* Frameworks */,
+				C2B507B02801F6F00074647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B507B42801F6F00074647C /* PBXTargetDependency */,
+			);
+			name = "fourtwenty WatchKit AppTests";
+			productName = "fourtwenty WatchKit AppTests";
+			productReference = C2B507B22801F6F00074647C /* fourtwenty WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2B507BB2801F6F00074647C /* fourtwenty WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B507DA2801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit AppUITests" */;
+			buildPhases = (
+				C2B507B82801F6F00074647C /* Sources */,
+				C2B507B92801F6F00074647C /* Frameworks */,
+				C2B507BA2801F6F00074647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B507BE2801F6F00074647C /* PBXTargetDependency */,
+			);
+			name = "fourtwenty WatchKit AppUITests";
+			productName = "fourtwenty WatchKit AppUITests";
+			productReference = C2B507BC2801F6F00074647C /* fourtwenty WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2B507612801F6EE0074647C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C2B507682801F6EE0074647C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2B507782801F6EF0074647C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2B507682801F6EE0074647C;
+					};
+					C2B507822801F6EF0074647C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2B507682801F6EE0074647C;
+					};
+					C2B5078C2801F6EF0074647C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2B507972801F6F00074647C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C2B507B12801F6F00074647C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2B507972801F6F00074647C;
+					};
+					C2B507BB2801F6F00074647C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C2B5078C2801F6EF0074647C;
+					};
+				};
+			};
+			buildConfigurationList = C2B507642801F6EE0074647C /* Build configuration list for PBXProject "fourtwenty" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2B507602801F6EE0074647C;
+			productRefGroup = C2B5076A2801F6EE0074647C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B507682801F6EE0074647C /* fourtwenty */,
+				C2B507782801F6EF0074647C /* fourtwentyTests */,
+				C2B507822801F6EF0074647C /* fourtwentyUITests */,
+				C2B5078C2801F6EF0074647C /* fourtwenty WatchKit App */,
+				C2B507972801F6F00074647C /* fourtwenty WatchKit Extension */,
+				C2B507B12801F6F00074647C /* fourtwenty WatchKit AppTests */,
+				C2B507BB2801F6F00074647C /* fourtwenty WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2B507672801F6EE0074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507742801F6EF0074647C /* Preview Assets.xcassets in Resources */,
+				C2B507712801F6EF0074647C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507772801F6EF0074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507812801F6EF0074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B5078B2801F6EF0074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507932801F6F00074647C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507962801F6F00074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507AB2801F6F00074647C /* Preview Assets.xcassets in Resources */,
+				C2B507A82801F6F00074647C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507B02801F6F00074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507BA2801F6F00074647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2B507652801F6EE0074647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B5076F2801F6EE0074647C /* ContentView.swift in Sources */,
+				C2B5076D2801F6EE0074647C /* fourtwentyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507752801F6EF0074647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B5077E2801F6EF0074647C /* fourtwentyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B5077F2801F6EF0074647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507882801F6EF0074647C /* fourtwentyUITests.swift in Sources */,
+				C2B5078A2801F6EF0074647C /* fourtwentyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507942801F6F00074647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507A22801F6F00074647C /* NotificationController.swift in Sources */,
+				C2B507A02801F6F00074647C /* ContentView.swift in Sources */,
+				C2B507A62801F6F00074647C /* ComplicationController.swift in Sources */,
+				C2B5079E2801F6F00074647C /* fourtwentyApp.swift in Sources */,
+				C2B507A42801F6F00074647C /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507AE2801F6F00074647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507B72801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B507B82801F6F00074647C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B507C32801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				C2B507C12801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2B5077B2801F6EF0074647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B507682801F6EE0074647C /* fourtwenty */;
+			targetProxy = C2B5077A2801F6EF0074647C /* PBXContainerItemProxy */;
+		};
+		C2B507852801F6EF0074647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B507682801F6EE0074647C /* fourtwenty */;
+			targetProxy = C2B507842801F6EF0074647C /* PBXContainerItemProxy */;
+		};
+		C2B507902801F6EF0074647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B5078C2801F6EF0074647C /* fourtwenty WatchKit App */;
+			targetProxy = C2B5078F2801F6EF0074647C /* PBXContainerItemProxy */;
+		};
+		C2B5079B2801F6F00074647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B507972801F6F00074647C /* fourtwenty WatchKit Extension */;
+			targetProxy = C2B5079A2801F6F00074647C /* PBXContainerItemProxy */;
+		};
+		C2B507B42801F6F00074647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B507972801F6F00074647C /* fourtwenty WatchKit Extension */;
+			targetProxy = C2B507B32801F6F00074647C /* PBXContainerItemProxy */;
+		};
+		C2B507BE2801F6F00074647C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B5078C2801F6EF0074647C /* fourtwenty WatchKit App */;
+			targetProxy = C2B507BD2801F6F00074647C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2B507C42801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2B507C52801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C2B507C72801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fourtwenty WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fourtwenty WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fourtwenty WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwenty.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2B507C82801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fourtwenty WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fourtwenty WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fourtwenty WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwenty.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C2B507CB2801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = fourtwenty_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "fourtwenty WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ryujiganaha.fourtwenty;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwenty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2B507CC2801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = fourtwenty_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "fourtwenty WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ryujiganaha.fourtwenty;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwenty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C2B507CF2801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fourtwenty/Preview Content\"";
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwenty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2B507D02801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fourtwenty/Preview Content\"";
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwenty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B507D22801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwentyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fourtwenty.app/fourtwenty";
+			};
+			name = Debug;
+		};
+		C2B507D32801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwentyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fourtwenty.app/fourtwenty";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B507D52801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwentyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fourtwenty;
+			};
+			name = Debug;
+		};
+		C2B507D62801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryujiganaha.fourtwentyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fourtwenty;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B507D82801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryujiganaha.fourtwenty-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fourtwenty WatchKit Extension.appex/fourtwenty WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2B507D92801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryujiganaha.fourtwenty-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fourtwenty WatchKit Extension.appex/fourtwenty WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C2B507DB2801F6F00074647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryujiganaha.fourtwenty-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "fourtwenty WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C2B507DC2801F6F00074647C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22M42HXQYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryujiganaha.fourtwenty-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "fourtwenty WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2B507642801F6EE0074647C /* Build configuration list for PBXProject "fourtwenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507C42801F6F00074647C /* Debug */,
+				C2B507C52801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507C62801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507C72801F6F00074647C /* Debug */,
+				C2B507C82801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507CA2801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507CB2801F6F00074647C /* Debug */,
+				C2B507CC2801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507CE2801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507CF2801F6F00074647C /* Debug */,
+				C2B507D02801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507D12801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwentyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507D22801F6F00074647C /* Debug */,
+				C2B507D32801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507D42801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwentyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507D52801F6F00074647C /* Debug */,
+				C2B507D62801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507D72801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507D82801F6F00074647C /* Debug */,
+				C2B507D92801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B507DA2801F6F00074647C /* Build configuration list for PBXNativeTarget "fourtwenty WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B507DB2801F6F00074647C /* Debug */,
+				C2B507DC2801F6F00074647C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2B507612801F6EE0074647C /* Project object */;
+}
