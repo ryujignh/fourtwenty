@@ -27,6 +27,10 @@
 		C2B507B72801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507B62801F6F00074647C /* fourtwenty_WatchKit_AppTests.swift */; };
 		C2B507C12801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507C02801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift */; };
 		C2B507C32801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507C22801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift */; };
+		C2B507DE2801F8A20074647C /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507DD2801F8A20074647C /* TimeManager.swift */; };
+		C2B507E02801F8E30074647C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507DF2801F8E30074647C /* Helper.swift */; };
+		C2B507E22801F9820074647C /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507E12801F9820074647C /* TimeManager.swift */; };
+		C2B507E42801F9AB0074647C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B507E32801F9AB0074647C /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +131,10 @@
 		C2B507BC2801F6F00074647C /* fourtwenty WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fourtwenty WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B507C02801F6F00074647C /* fourtwenty_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwenty_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		C2B507C22801F6F00074647C /* fourtwenty_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwenty_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2B507DD2801F8A20074647C /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		C2B507DF2801F8E30074647C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C2B507E12801F9820074647C /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		C2B507E32801F9AB0074647C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +216,8 @@
 			children = (
 				C2B5076C2801F6EE0074647C /* fourtwentyApp.swift */,
 				C2B5076E2801F6EE0074647C /* ContentView.swift */,
+				C2B507DD2801F8A20074647C /* TimeManager.swift */,
+				C2B507DF2801F8E30074647C /* Helper.swift */,
 				C2B507702801F6EF0074647C /* Assets.xcassets */,
 				C2B507722801F6EF0074647C /* Preview Content */,
 			);
@@ -251,7 +261,9 @@
 			isa = PBXGroup;
 			children = (
 				C2B5079D2801F6F00074647C /* fourtwentyApp.swift */,
+				C2B507E12801F9820074647C /* TimeManager.swift */,
 				C2B5079F2801F6F00074647C /* ContentView.swift */,
+				C2B507E32801F9AB0074647C /* Helper.swift */,
 				C2B507A12801F6F00074647C /* NotificationController.swift */,
 				C2B507A32801F6F00074647C /* NotificationView.swift */,
 				C2B507A52801F6F00074647C /* ComplicationController.swift */,
@@ -541,6 +553,8 @@
 			files = (
 				C2B5076F2801F6EE0074647C /* ContentView.swift in Sources */,
 				C2B5076D2801F6EE0074647C /* fourtwentyApp.swift in Sources */,
+				C2B507DE2801F8A20074647C /* TimeManager.swift in Sources */,
+				C2B507E02801F8E30074647C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +580,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B507A22801F6F00074647C /* NotificationController.swift in Sources */,
+				C2B507E42801F9AB0074647C /* Helper.swift in Sources */,
 				C2B507A02801F6F00074647C /* ContentView.swift in Sources */,
+				C2B507E22801F9820074647C /* TimeManager.swift in Sources */,
 				C2B507A62801F6F00074647C /* ComplicationController.swift in Sources */,
 				C2B5079E2801F6F00074647C /* fourtwentyApp.swift in Sources */,
 				C2B507A42801F6F00074647C /* NotificationView.swift in Sources */,
