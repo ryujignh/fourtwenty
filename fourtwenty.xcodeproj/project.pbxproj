@@ -186,18 +186,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C260796A280245C9002E53B5 /* Docs */ = {
+		C260796A280245C9002E53B5 /* docs */ = {
 			isa = PBXGroup;
 			children = (
 				C260796B280245E4002E53B5 /* PrivacyPolicy.md */,
 			);
-			path = Docs;
+			path = docs;
 			sourceTree = "<group>";
 		};
 		C2B507602801F6EE0074647C = {
 			isa = PBXGroup;
 			children = (
-				C260796A280245C9002E53B5 /* Docs */,
+				C260796A280245C9002E53B5 /* docs */,
 				C2B5076B2801F6EE0074647C /* fourtwenty */,
 				C2B5077C2801F6EF0074647C /* fourtwentyTests */,
 				C2B507862801F6EF0074647C /* fourtwentyUITests */,
