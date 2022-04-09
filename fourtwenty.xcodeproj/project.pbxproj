@@ -106,6 +106,7 @@
 /* Begin PBXFileReference section */
 		C260796828023587002E53B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C26079692802388F002E53B5 /* fourtwenty-WatchKit-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "fourtwenty-WatchKit-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C260796B280245E4002E53B5 /* PrivacyPolicy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PrivacyPolicy.md; sourceTree = "<group>"; };
 		C2B507692801F6EE0074647C /* fourtwenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fourtwenty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B5076C2801F6EE0074647C /* fourtwentyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourtwentyApp.swift; sourceTree = "<group>"; };
 		C2B5076E2801F6EE0074647C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,9 +186,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C260796A280245C9002E53B5 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				C260796B280245E4002E53B5 /* PrivacyPolicy.md */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
 		C2B507602801F6EE0074647C = {
 			isa = PBXGroup;
 			children = (
+				C260796A280245C9002E53B5 /* Docs */,
 				C2B5076B2801F6EE0074647C /* fourtwenty */,
 				C2B5077C2801F6EF0074647C /* fourtwentyTests */,
 				C2B507862801F6EF0074647C /* fourtwentyUITests */,
