@@ -33,9 +33,9 @@ struct ContentView: View {
                 
                 VStack {
                     if self.timerManager.timerMode == .squeez {
-                        Text("Squeez")
+                        Text("Go!")
                             .font(.system(size: 20))
-                        Text(String(timerManager.squeezSeconds))
+                        Text(String(timerManager.exerciseSeconds))
                             .font(.system(size: 45))
                             .foregroundColor(.red)
                     } else {

@@ -15,11 +15,11 @@ class TimerManager: NSObject, WKExtensionDelegate, WKExtendedRuntimeSessionDeleg
     @Published var repCount = UserDefaults.standard.integer(forKey: "repCount")
     @Published var currentRepCount = 0
     
-    @Published var squeezSeconds: Int = 5
-    @Published var restSeconds: Int = 5
+    @Published var exerciseSeconds: Int = 40
+    @Published var restSeconds: Int = 20
     
-    var defaultSqueezSeconds = 5
-    var defaultRestSeconds = 5
+    var defaultExerciseSeconds = 40
+    var defaultRestSeconds = 20
     
     var timer = Timer()
     var session: WKExtendedRuntimeSession!
@@ -64,12 +64,12 @@ class TimerManager: NSObject, WKExtensionDelegate, WKExtendedRuntimeSessionDeleg
     func squeez() {
         timerMode = .squeez
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { timer in
-            if self.squeezSeconds == 1 {
+            if self.exerciseSeconds == 1 {
                 timer.invalidate()
                 self.exercise()
-                self.squeezSeconds = self.defaultSqueezSeconds
+                self.exerciseSeconds = self.defaultExerciseSeconds
             } else {
-                self.squeezSeconds -= 1
+                self.exerciseSeconds -= 1
             }
         })
     }
@@ -91,7 +91,7 @@ class TimerManager: NSObject, WKExtensionDelegate, WKExtendedRuntimeSessionDeleg
     func reset() {
         timerMode = .initial
         timer.invalidate()
-        self.squeezSeconds = self.defaultSqueezSeconds
+        self.exerciseSeconds = self.defaultExerciseSeconds
         self.restSeconds = self.defaultRestSeconds
         self.currentRepCount = 0
     }
